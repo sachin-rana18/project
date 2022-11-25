@@ -1,0 +1,46 @@
+body
+{
+    margin: 0;
+    ba
+}
+.div1
+{
+    height: 200px;
+    width: 200px;
+    background-image: linear-gradient( skyblue,purple);
+    border-radius: 50%;
+    position: absolute;
+
+    animation-name: karkarduma;
+    animation-duration: 6s;
+    animation-delay: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes karkarduma{
+    0%{
+        top: 0;
+        left: 0;
+    }
+    10%{
+        left: 400px;
+        top: 0px;
+        background-image: linear-gradient( darkblue yellowgreen);
+    }
+    20%
+    {
+        left: 400px;
+        top: 400px;
+        background-image: linear-gradient(darkred,purple);
+    }
+    30%{
+        left: 0px;
+        top: 400px;
+        background-image: linear-gradient(pink,red);
+    }
+    100%{
+        left: 0;
+        top: 0;
+    }
+    
+
+}

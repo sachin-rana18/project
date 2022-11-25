@@ -1,0 +1,73 @@
+body
+{
+    margin: 0;
+}
+nav{
+    background-color: skyblue;
+}
+h1
+{
+    color: whitesmoke;
+    
+}
+   
+.flex-container{
+    display: flex;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 700;
+    transition: 2s all;
+    word-spacing: 30px;
+
+}
+a:hover{
+    background-color: darkblue;
+    color: aqua;
+}
+.flex-item1{
+    flex: 20%;
+    background-color: blue;
+
+}
+.flex-item2
+{
+    flex: 80%;
+
+}
+ul
+{
+    list-style-type: none;
+}
+li{
+    display: inline;
+    margin-left: 40px;
+}
+.slider{
+    height: 600px;
+    background-image: url('../images/coffe2.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    animation-name: animate;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+@keyframes animate{
+    from{
+        background-image: url('../images/coffe1.webp');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    to{
+        background-image: url('../images/coffe3.webp');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
